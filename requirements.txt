@@ -1,11 +1,9 @@
-python-dotenv
-pandas 
-numpy
-pymongo
-certifi
-
-pymongo[srv]==3.6
-scikit-learn
-
-
+python-dotenv>=1.0.1
+pandas>=2.2.2
+numpy>=1.26.0
+pymongo>=4.10.1
+certifi>=2024.2.2
+scikit-learn>=1.4.2
+pyyaml>=6.0.1
+dill>=0.3.8
 ## -e.
