@@ -1,22 +1,22 @@
-name:workflow
+name: workflow
 
 on:
-    push:
-        branches:
-            - main
-        paths-ignore:
-        - 'README.md'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
 
 jobs:
-    integration:
-        name: Continuous Integration
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout Code
-              uses: actions/checkout@v2
+  integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-            - name: Lint code
-              run: echo "Linting repository"
+      - name: Lint code
+        run: echo "Linting repository"
 
-            - name: Build Docker Image
-              run: echo "Running unit tests"
+      - name: Build Docker Image
+        run: echo "Running unit tests"
