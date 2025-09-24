@@ -16,7 +16,7 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Lint code
-              run: echo "Linting repositry"
+              run: echo "Linting repository"
 
             - name: Build Docker Image
               run: echo "Running unit tests"
